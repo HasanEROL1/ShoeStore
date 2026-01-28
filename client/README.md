@@ -66,17 +66,7 @@ React, TypeScript ve React Query kullanılarak geliştirilmiştir.
 
 ---
 
-## 📁 Proje Yapısı
 
-src/
-│
-├─ api/ # Axios & API istekleri
-├─ components/ # Tekrar kullanılabilir bileşenler
-├─ pages/ # Sayfalar (login, list, edit, admin)
-├─ hooks/ # Custom hook'lar
-├─ types/ # TypeScript tipleri
-└─ main.tsx
----
 
 ## 🔐 Authentication Akışı
 
