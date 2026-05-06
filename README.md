@@ -3,7 +3,7 @@ Bu proje, React (Frontend) ve Node.js/Express (Backend) kullanılarak geliştiri
 
 
 
-![🚀gif](shostore.gif)
+![🚀gif](shoestore.gif)
 🚀 Özellikler
 - Kullanıcı Sistemi: JWT (JSON Web Token) tabanlı Register ve Login işlemleri.
 
