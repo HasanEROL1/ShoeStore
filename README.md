@@ -19,7 +19,7 @@ Bu proje, React (Frontend) ve Node.js/Express (Backend) kullanılarak geliştiri
 # Frontend (İstemci)
 * React 19 & TypeScript: Tip güvenliği ve modern bileşen yapısı.
 
-* *  TanStack Query (React Query) v5: Sunucu durum yönetimi, veri çekme (fetching) ve otomatik cache yönetimi.
+*  TanStack Query (React Query) v5: Sunucu durum yönetimi, veri çekme (fetching) ve otomatik cache yönetimi.
 
 * Vite: Hızlı geliştirme ortamı ve build aracı.
 
