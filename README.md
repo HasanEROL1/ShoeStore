@@ -16,11 +16,11 @@ Bu proje, React (Frontend) ve Node.js/Express (Backend) kullanılarak geliştiri
 - Responsive Tasarım: Modern ve şık kullanıcı arayüzü.
 
 🛠 Kullanılan Teknolojiler
-. Frontend: Vite, React, React Router, Redux Toolkit, Tailwind CSS.
+* Frontend: Vite, React, React Router, Redux Toolkit, Tailwind CSS.
 
-. Backend: Node.js, Express, Mongoose, JWT, Dotenv.
+* Backend: Node.js, Express, Mongoose, JWT, Dotenv.
 
-. Veritabanı: MongoDB Atlas.
+* Veritabanı: MongoDB Atlas.
 
 ````bash
 📦 Kurulum
