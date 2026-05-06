@@ -6,7 +6,7 @@ const shoes = require('./db.json').shoes;
 const seedDatabase = async () => {
     try {
         // Connect to MongoDB
-        await mongoose.connect(process.env.MONGODB_URI);
+        await mongoose.connect(process.env.MONGO_URI);
         console.log('Connected to MongoDB');
 
         // Clear existing shoes
@@ -26,4 +26,4 @@ const seedDatabase = async () => {
     }
 };
 
-seedDatabase(); 
+seedDatabase();

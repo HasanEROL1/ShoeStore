@@ -5,7 +5,7 @@ const { protect, admin } = require("../middleware/auth.middleware");
 const { images } = require("../constants");
 
 // Get all shoes (protected)
-router.get("/", protect, async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const shoes = await Shoe.find();
     res.json(shoes);
@@ -15,7 +15,7 @@ router.get("/", protect, async (req, res) => {
 });
 
 // Get single shoe (protected)
-router.get("/:id", protect, async (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
     const shoe = await Shoe.findById(req.params.id);
     if (!shoe) {

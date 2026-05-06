@@ -14,7 +14,7 @@ const shoeSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    isNew: {
+    isNewProduct: {
         type: Boolean,
         default: false
     },
@@ -40,5 +40,4 @@ const shoeSchema = new mongoose.Schema({
         required: true
     }
 }, { timestamps: true });
-
-module.exports = mongoose.model('Shoe', shoeSchema); 
+module.exports = mongoose.model("Shoe", shoeSchema, "shoe");

@@ -24,10 +24,14 @@ app.use(cookieParser());
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/shoes", shoeRoutes);
+app.use((err, req, res, next) => {
+  console.error(err.stack); // Hatanın ne olduğunu terminale yazdıran yer burası!
+  res.status(500).json({ message: "Something went wrong!" });
+});
 
 // Connect to MongoDB
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect(process.env.MONGO_URI)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
