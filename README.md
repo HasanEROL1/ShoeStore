@@ -15,12 +15,38 @@ Bu proje, React (Frontend) ve Node.js/Express (Backend) kullanılarak geliştiri
 
 - Responsive Tasarım: Modern ve şık kullanıcı arayüzü.
 
-🛠 Kullanılan Teknolojiler
-* Frontend: Vite, React, React Router, Redux Toolkit, Tailwind CSS.
+## 🛠 Kullanılan Teknolojiler ve Kütüphaneler
+# Frontend (İstemci)
+* React 19 & TypeScript: Tip güvenliği ve modern bileşen yapısı.
 
-* Backend: Node.js, Express, Mongoose, JWT, Dotenv.
+* *  TanStack Query (React Query) v5: Sunucu durum yönetimi, veri çekme (fetching) ve otomatik cache yönetimi.
 
-* Veritabanı: MongoDB Atlas.
+* Vite: Hızlı geliştirme ortamı ve build aracı.
+
+* Tailwind CSS v4: Modern ve hızlı UI tasarımı.
+
+* React Router Dom v7: Sayfalar arası yönlendirme ve dinamik route yönetimi.
+
+* Formik & Yup: Form yönetimi ve şema tabanlı doğrulama (validation).
+
+* Axios: HTTP istekleri için optimize edilmiş kütüphane.
+
+* React Toastify: Kullanıcı bildirimleri ve hata mesajları için şık pop-up'lar.
+
+* React Icons: Geniş ikon kütüphanesi desteği.
+
+* DOMPurify: HTML içeriklerini sanitize ederek XSS saldırılarına karşı güvenlik.
+
+# Backend (Sunucu)
+* Node.js & Express: Hızlı ve ölçeklenebilir sunucu altyapısı.
+
+* MongoDB Atlas: Bulut tabanlı NoSQL veritabanı.
+
+* Mongoose: MongoDB için nesne veri modelleme (ODM).
+
+* JSON Web Token (JWT): Güvenli kullanıcı kimlik doğrulama.
+
+* Dotenv: Çevresel değişken yönetimi (.env).
 
 ````bash
 📦 Kurulum
